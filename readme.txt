@@ -19,5 +19,8 @@ This is the simplest plugin to restrict a Wordpress site to the public. You can 
 6. Click the Activate Plugin link.
 
 == Changelog ==
+= 0.2 (2017-04-27 16:11 EET) =
+* Topbar menu link correction
+
 = 0.1 (2017-04-27 15:33 EET) =
 * Initial release

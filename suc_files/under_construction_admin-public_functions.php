@@ -11,8 +11,8 @@ function suc_toolbar_under_construction( $wp_admin_bar ) {
 			'id'    => 'suc_toolbar_under_construction',
 			'title' => '<span class="ab-icon"><img src="'.plugin_dir_url( SUC_FILE ).'dev_icon.png"></span>
 						<span class="ab-label">Under Construction</span>',
-			'href'  => admin_url('admin.php?page=twelve12-under-construction'),
-			'meta'  => array( 'class' => 'twelve12-toolbar-custom-codes' )
+			'href'  => admin_url('admin.php?page=simplest-under-construction'),
+			'meta'  => array( 'class' => 'suc-toolbar-custom-codes' )
 		);
 		$wp_admin_bar->add_node( $args );
 

@@ -4,7 +4,7 @@ Plugin Name: Simplest Under Construction
 Description: This is the simplest plugin to restrict a Wordpress site to the public. You can allow them by IP or user role.
 Author: Bilal TAS
 Author URI: http://bilaltas.net
-Version: 0.1
+Version: 0.2
 */
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );

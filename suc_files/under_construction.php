@@ -120,7 +120,7 @@ function suc_options() {
 							  <?php do_settings_sections( 'suc_settings' ); ?>
                               <table class="form-table">
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "Activate", 'twelve12' ); ?></th>
+	                                    <th scope="row"><?php _e( "Activate", 'suc' ); ?></th>
                                         <td>
 
 	                                        <label><input type="radio" name="suc_active" value="true" <?=$suc_active ? "checked" : ""?>> On</label><br>
@@ -129,7 +129,7 @@ function suc_options() {
                                         </td>
                                    </tr>
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "Roles to Disable", 'twelve12' ); ?></th>
+	                                    <th scope="row"><?php _e( "Roles to Disable", 'suc' ); ?></th>
                                         <td>
 <?php
 
@@ -198,7 +198,7 @@ function suc_options() {
                                         </td>
                                    </tr>
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "Auto-redirect to front-end", 'twelve12' ); ?></th>
+	                                    <th scope="row"><?php _e( "Auto-redirect to front-end", 'suc' ); ?></th>
                                         <td>
 
 
@@ -218,7 +218,7 @@ First, you need to add roles from "Roles to Disable" section and save them
                                         </td>
                                    </tr>
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "IP's to Disable", 'twelve12' ); ?></th>
+	                                    <th scope="row"><?php _e( "IP's to Disable", 'suc' ); ?></th>
                                         <td>
 
 											<textarea name="suc_ip_whitelist" rows="4"><?=$suc_ip_whitelist?></textarea><br>
@@ -229,7 +229,7 @@ First, you need to add roles from "Roles to Disable" section and save them
                                    <tr valign="top">
 	                                    <th scope="row"></th>
                                         <td>
-												<?php submit_button( __( 'Save Changes', 'twelve12' ), 'primary', 'submit', true ); ?>
+												<?php submit_button( __( 'Save Changes', 'suc' ), 'primary', 'submit', true ); ?>
                                         </td>
                                    </tr>
                               </table>
