@@ -46,8 +46,8 @@ function suc_show_under_construction() {
 			add_filter('show_admin_bar', '__return_false'); // CHECK THIS
 
 			// Remove the admin bar margins
-			add_action('get_header', 'my_filter_head');
-			function my_filter_head() {
+			add_action('get_header', 'suc_filter_head');
+			function suc_filter_head() {
 				remove_action('wp_head', '_admin_bar_bump_cb');
 			}
 
