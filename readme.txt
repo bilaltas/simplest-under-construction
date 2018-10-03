@@ -1,8 +1,12 @@
 === Simplest Under Construction ===
 Contributors: bilaltas
 Tags: coming soon, under construction, maintenance, maintenance mode
-Requires at least: 3.0
-Tested up to: 4.7.4
+Donate link: https://paypal.me/bilaltas
+Requires at least: 4.0
+Tested up to: 4.9.8
+Stable tag: trunk
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 
 This is the simplest plugin to restrict a Wordpress site to the public. You can allow them by IP or user role.
 
@@ -19,6 +23,9 @@ This is the simplest plugin to restrict a Wordpress site to the public. You can 
 6. Click the Activate Plugin link.
 
 == Changelog ==
+= 0.4 (2018-10-04 01:27 EET) =
+* Prepared for WP plugin repo
+
 = 0.3 (2017-04-27 16:25 EET) =
 * Common function name changed
 
