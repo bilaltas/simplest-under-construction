@@ -129,7 +129,7 @@ function suc_options() {
                                         </td>
                                    </tr>
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "Roles to Disable", 'suc' ); ?></th>
+	                                    <th scope="row"><?php _e( "Roles to Disable <br/>(Optional)", 'suc' ); ?></th>
                                         <td>
 <?php
 
@@ -198,7 +198,7 @@ function suc_options() {
                                         </td>
                                    </tr>
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "Auto-redirect to front-end", 'suc' ); ?></th>
+	                                    <th scope="row"><?php _e( "Auto-redirect to front-end <br/>(Optional)", 'suc' ); ?></th>
                                         <td>
 
 
@@ -213,16 +213,18 @@ function suc_options() {
 	echo '</select>';
 ?><br/>
 
-First, you need to add roles from "Roles to Disable" section and save them
+First, you need to add roles from "Roles to Disable" section and save them.<br/>
+The roles selected above will be automatically redirected to the frontend to preview after they log in.
 
                                         </td>
                                    </tr>
                                    <tr valign="top">
-	                                    <th scope="row"><?php _e( "IP's to Disable", 'suc' ); ?></th>
+	                                    <th scope="row"><?php _e( "IP Addresses to Disable <br/>(Optional)", 'suc' ); ?></th>
                                         <td>
 
 											<textarea name="suc_ip_whitelist" rows="4"><?=$suc_ip_whitelist?></textarea><br>
-											One IP per line. Current IP Address: <b><?=$_SERVER["REMOTE_ADDR"]?></b>
+											One IP per line. Current IP Address: <b><?=$_SERVER["REMOTE_ADDR"]?></b><br/>
+											The IP addresses listed above will be able to preview the site without logging in.
 
                                         </td>
                                    </tr>

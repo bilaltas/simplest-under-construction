@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simplest Under Construction
-Plugin URI: https://wordpress.org/plugins/simplest-under-construction/
+Plugin URI: https://wordpress.org/plugins/custom-codes/
 Description: This is the simplest plugin to restrict a Wordpress site to the public. You can allow them by IP or user role.
 Author: Bilal TAS
 Author URI: https://www.bilaltas.net

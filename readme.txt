@@ -22,6 +22,10 @@ This is the simplest plugin to restrict a Wordpress site to the public. You can 
 5. You should see a message stating that the plugin was installed successfully.
 6. Click the Activate Plugin link.
 
+== Screenshots ==
+1. Settings page
+2. Coming soon view on frontend
+
 == Changelog ==
 = 0.4 (2018-10-04 01:27 EET) =
 * Prepared for WP plugin repo
