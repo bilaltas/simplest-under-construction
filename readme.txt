@@ -3,7 +3,7 @@ Contributors: bilaltas
 Tags: coming soon, under construction, maintenance, maintenance mode
 Donate link: https://paypal.me/bilaltas
 Requires at least: 4.0
-Tested up to: 4.9.8
+Tested up to: 5.3
 Stable tag: trunk
 License: MIT
 License URI: https://opensource.org/licenses/MIT
@@ -27,6 +27,9 @@ This is the simplest plugin to restrict a Wordpress site to the public. You can 
 2. Coming soon view on frontend
 
 == Changelog ==
+= 0.5 (2019-11-07 13:22 EET) =
+* Tested on Wordpress 5.3
+
 = 0.4 (2018-10-04 01:27 EET) =
 * Prepared for WP plugin repo
 

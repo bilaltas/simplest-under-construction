@@ -7,7 +7,7 @@ Author: Bilal TAS
 Author URI: https://www.bilaltas.net
 License: MIT
 License URI: https://opensource.org/licenses/MIT
-Version: 0.4
+Version: 0.5
 
 Copyright (c) 2018 Simplest Under Construction
 
